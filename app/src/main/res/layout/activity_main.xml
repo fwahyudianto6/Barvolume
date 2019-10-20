@@ -13,36 +13,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_length" />
-
     <EditText
             android:id="@+id/et_length"
+            android:inputType="numberDecimal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
             android:lines="1" />
 
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_width" />
-
     <EditText
             android:id="@+id/et_width"
+            android:inputType="numberDecimal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
             android:lines="1" />
 
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_height" />
-
     <EditText
             android:id="@+id/et_height"
+            android:inputType="numberDecimal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
             android:lines="1" />
 
     <Button
@@ -50,7 +47,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/btn_calculate" />
-
     <TextView
             android:id="@+id/tv_result"
             android:layout_width="match_parent"
